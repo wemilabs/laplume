@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LaPlume: Your Smart Writing Space 📝🪽🪶
 
-## Getting Started
+A minimalist SaaS app designed for writers who value focus, simplicity, and productivity. LaPlume provides a clean, distraction-free environment to help you write better and faster.
 
-First, run the development server:
+## ✨ Features
+
+- **Write Page**: A distraction-free writing space with minimalist design to keep you in the flow
+- **Docs Page**: Organize and access all your saved documents in one place
+- **Stats Page**: Track your writing progress with essential metrics like word count and time spent
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+ installed
+- pnpm (recommended) or npm/yarn
+
+### Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/wemilabs/laplume.git
+cd laplume
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: [Next.js](https://nextjs.org) with App Router
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **UI Components**: [shadcn/ui](https://ui.shadcn.com)
+- **Icons**: [Lucide React](https://lucide.dev)
+- **Package Manager**: [pnpm](https://pnpm.io)
 
-## Deploy on Vercel
+## 📝 Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Start Writing**: Navigate to the Write page for a distraction-free writing experience
+2. **Save Your Work**: Your documents are automatically saved and accessible from the Docs page
+3. **Track Progress**: Visit the Stats page to monitor your writing habits and productivity
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🌟 Show Your Support
+
+If you find LaPlume helpful, consider giving us a star on GitHub!
+
+---
+
+Built with ❤️ for writers who value simplicity and focus.
