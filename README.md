@@ -4,9 +4,9 @@ A minimalist SaaS app designed for writers who value focus, simplicity, and prod
 
 ## ✨ Features
 
-- **Write Page**: A distraction-free writing space with minimalist design to keep you in the flow
-- **Docs Page**: Organize and access all your saved documents in one place
-- **Stats Page**: Track your writing progress with essential metrics like word count and time spent
+- **Write**: A distraction-free writing space with minimalist design to keep you in the flow
+- **Docs**: Organize and access all your saved documents in one place
+- **Stats**: Track your writing progress with essential metrics like word count and time spent
 
 ## 🚀 Getting Started
 
