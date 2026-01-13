@@ -1,4 +1,4 @@
-# LaPlume: Your Smart Writing Space 📝🪽🪶
+# LaPlume: Your Smart Writing Space
 
 A minimalist SaaS app designed for writers who value focus, simplicity, and productivity. LaPlume provides a clean, distraction-free environment to help you write better and faster.
 
@@ -66,4 +66,6 @@ If you find LaPlume helpful, consider giving us a star on GitHub!
 
 ---
 
-Built with ❤️ for writers who value simplicity and focus.
+For the ❤️ of writing,
+
+🪶
