@@ -13,8 +13,8 @@ const authClient = createAuthClient({
 export const {
   signIn,
   signOut,
-  requestPasswordReset,
-  resetPassword,
+  // requestPasswordReset,
+  // resetPassword,
   getSession,
   useSession,
   getLastUsedLoginMethod,
