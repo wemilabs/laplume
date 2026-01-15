@@ -1,5 +1,5 @@
 import { getSessionCookie } from "better-auth/cookies";
-import { type NextRequest, NextResponse } from "next/server";
+import { type NextRequest, NextResponse, type ProxyConfig } from "next/server";
 
 export async function proxy(request: NextRequest) {
   const sessionCookie = getSessionCookie(request);
@@ -10,6 +10,6 @@ export async function proxy(request: NextRequest) {
   return NextResponse.next();
 }
 
-export const config = {
+export const config: ProxyConfig = {
   matcher: ["/dashboard/:path*"],
 };
